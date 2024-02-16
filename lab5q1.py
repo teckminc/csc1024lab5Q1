@@ -17,14 +17,6 @@ Operators: <=, +
 Structure: while
 '''
 def main():
-    my_list = []
-    count = 1
-    while count <= 5:
-        num = float(input("Enter a number: "))
-        my_list.append(num)
-        count = count + 1
 
-    my_list.sort()
-    print("my_list =" , my_list)
     return 0
 
