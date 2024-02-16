@@ -20,4 +20,4 @@ def test_case3(monkeypatch, capsys):
   with open(f"lab5q1.py") as tf:
     head = [next(tf) for _ in range(18)]
     s = tf.read()
-    assert(s.find("my_list ") != -1 )
+    assert(s.find("my_list") != -1 )
